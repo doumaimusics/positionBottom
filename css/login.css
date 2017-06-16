@@ -1,0 +1,369 @@
+/*登录页面*/
+
+.w-1050 {
+	margin: 0 auto;
+	width: 1050px;
+}
+
+.login-header {
+	height: 92px;
+}
+
+.login-header .logo {
+	margin-top: 30px;
+}
+
+.login-header .logo a {
+	float: left;
+	width: 271px;
+	height: 49px;
+	background: url(../images/login-logo.png);
+}
+
+.login-header .logo .title {
+	display: inline-block;
+	margin: 5px 0 0 15px;
+	padding-left: 15px;
+	border-left: 1px solid #ddd;
+	font-size: 24px;
+}
+
+.login-header .about {
+	margin: 55px 0 0 0;
+}
+
+.login-header .about a {
+	float: left;
+	padding: 0 10px;
+}
+
+.login-header .about .line {
+	margin-top: 2px;
+	width: 1px;
+	height: 13px;
+	background-color: #d5d5d5;
+}
+
+/*横幅*/
+.login-banner {
+	background: url(../images/img/login-img-bg.png) center no-repeat #ff5e0e;
+}
+
+.login-banner .login-banner-body {
+	height: 493px;
+	background: url(../images/img/login-img.jpg) center no-repeat;
+}
+
+/*登录*/
+.login-box-warp {
+	margin: 60px 0 0 20px;
+	width: 310px;
+	background: rgba(255, 255, 255, 0.95) none repeat scroll 0 0 !important;
+	background-color: #fff;
+	filter: Alpha(opacity=95);
+}
+
+.login-box-warp .title {
+	height: 48px;
+	border-bottom: 1px solid #dedede;
+	line-height: 48px;
+}
+
+.login-box-warp .title dt {
+	float: left;
+	width: 50%;
+	text-align: center;
+	cursor: pointer;
+}
+
+.login-box-warp .title .over {
+	border-bottom: 1px solid #ff4200;
+	color: #ff4200;
+	font-weight: bold;
+}
+
+.login-box-warp .login-body .text-d {
+	border: 1px solid #ddd;
+}
+
+.login-box-warp .login-body {
+	padding: 28px;
+}
+
+.login-box-warp .login-body .field {
+	position: relative;
+}
+
+/*输入帐号*/
+.login-box-warp .login-body .username-field {
+	overflow: hidden;
+	margin-top: 5px;
+	margin-bottom: 20px;
+	height: 36px;
+}
+
+.login-box-warp .login-body .username-field .name-ico {
+	width: 36px;
+	height: 36px;
+	background: url(../images/account-ico.png) #ddd;
+}
+
+.login-box-warp .login-body .text {
+	padding: 3px 8px;
+	width: 200px;
+	height: 30px;
+	height: 30px;
+	outline: 0;
+	border: none;
+	color: #000;
+	line-height: 26px;
+}
+
+.login-box-warp .login-body .code-text {
+	padding: 3px 8px;
+	width: 131px;
+	height: 30px;
+	height: 30px;
+	outline: 0;
+	border: none;
+	color: #666;
+	line-height: 26px;
+}
+/*输入密码*/
+.login-box-warp .login-body .password-label {
+	overflow: hidden;
+	margin-top: 15px;
+	margin-bottom: 20px;
+	height: 36px;
+}
+
+.login-box-warp .login-body .password-label .password-ico {
+	width: 36px;
+	height: 36px;
+	background: url(../images/password-ico.png) #ccc;
+}
+/*验证码*/
+.login-box-warp .login-body .code-field {
+	overflow: hidden;
+	margin-top: 15px;
+	margin-bottom: 20px;
+	height: 36px;
+}
+
+.login-box-warp .login-body .code-field .code-m {
+	overflow: hidden;
+	width: 146px;
+	height: 34px;
+}
+
+.login-box-warp .login-body .code-field .code-no {
+	width: 92px;
+	height: 34px;
+	background-color: #fff;
+}
+
+.login-box-warp .login-body .code-field .code-no img {
+	max-width: 92px;
+	max-height: 34px;
+}
+
+/*登录提示*/
+.login-box-warp .login-body .prompt {
+	height: 20px;
+}
+
+.login-box-warp .login-body .prompt span {
+	position: absolute;
+	top: -10px;
+	left: 0;
+	z-index: 5;
+}
+
+.login-box-warp .login-body .prompt span i {
+	float: left;
+	margin: 2px 3px 0 0;
+	width: 14px;
+	height: 14px;
+	background: url(../images/th-ico.png);
+}
+
+.login-box-warp .login-body .remember {
+	overflow: hidden;
+	margin-bottom: 13px;
+}
+
+.login-box-warp .login-body .remember input {
+	float: left;
+	margin: 3px 4px 0 0;
+}
+
+.login-box-warp .login-body .remember a:hover {
+	text-decoration: underline;
+}
+
+.login-box-warp .login-body .login-but {
+	width: 100%;
+	height: 35px;
+	border: 0;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	background-color: #ff4400;
+	color: #fff;
+	line-height: 30px;
+	cursor: pointer;
+	-webkit-transition: 0.5s;
+	-moz-transition: 0.5s;
+	transition: 0.5s;
+}
+
+.login-box-warp .login-body .login-but:hover {
+	background-color: #ec1600;
+}
+
+
+/*注册*/
+.register-box-warp {
+	background: url(../images/registe-header-bg.png) repeat-x;
+}
+
+.register-box-warp .register-body {
+	padding: 60px 0 60px 120px;
+}
+
+.register-box-warp .register-body .user-info {
+	padding-right: 75px;
+	width: 400px;
+	border-right: 1px solid #e5e5e5;
+}
+
+.register-box-warp .register-body .user-info .sr-line li {
+	position: relative;
+	overflow: hidden;
+	margin-bottom: 32px;
+	height: 50px;
+	border: 1px solid #ddd;
+}
+
+.register-box-warp .register-body .user-info .sr-line li .name {
+	float: left;
+	padding-left: 18px;
+	width: 82px;
+	line-height: 50px;
+}
+
+.register-box-warp .register-body .user-info .sr-line li input {
+	float: left;
+	width: 294px;
+	height: 50px;
+	border: none;
+	line-height: 50px;
+}
+
+.register-box-warp .register-body .user-info .sr-line li .iphone-validation {
+	position: absolute;
+	top: 2px;
+	right: 2px;
+	z-index: 99;
+	width: 118px;
+	height: 46px;
+	border: 0;
+	background-color: #f2f2f2;
+}
+
+.register-box-warp .register-body .user-info .sr-line li .img-validation {
+	position: absolute;
+	top: 2px;
+	right: 2px;
+	z-index: 99;
+	width: 118px;
+	height: 46px;
+	border: 0;
+	background-color: #f2f2f2;
+}
+
+.register-box-warp .register-body .user-info .sr-line li .img-validation img {
+	width: 100%;
+	height: 100%;
+}
+
+.register-box-warp .register-body .user-info .sr-line li .prompt {
+	position: absolute;
+	top: 55px;
+	left: 0;
+}
+
+.register-box-warp .register-body .user-info .sr-line li .prompt i {
+	margin: 2px 5px 0 0;
+	width: 14px;
+	height: 14px;
+	background: url(../images/th-ico.png);
+}
+
+.register-box-warp .register-body .user-info .remember {
+	overflow: hidden;
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+
+.register-box-warp .register-body .user-info .remember input {
+	float: left;
+	margin: 2px 4px 0 0;
+	height: 15px;
+}
+
+.register-box-warp .register-body .user-info .remember a:hover {
+	text-decoration: underline;
+}
+
+.register-box-warp .register-body .register-btn {
+	width: 100%;
+	height: 50px;
+	border: 0;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	background-color: #ff4400;
+	color: #fff;
+	line-height: 30px;
+}
+
+.register-box-warp .register-body .register-btn:hover {
+	background-color: #ec1600;
+}
+
+.register-box-warp .register-body .contact {
+	margin-left: 56px;
+	width: 300px;
+}
+
+.register-box-warp .register-body .contact .login {
+	margin-bottom: 20px;
+	line-height: 36px;
+}
+
+.register-box-warp .register-body .contact .login i {
+	float: left;
+	margin: 0 10px 0 0;
+	width: 38px;
+	height: 38px;
+	background: url(../images/rw-ico.png) no-repeat;
+}
+
+.register-box-warp .register-body .contact .login a {
+	margin-left: 10px;
+}
+
+.register-box-warp .register-body .contact .login a:hover {
+	text-decoration: underline;
+}
+
+.register-box-warp .register-body .contact .tel {
+	line-height: 20px;
+}
+
+.register-box-warp .register-body .contact .tel i {
+	float: left;
+	margin: 1px 10px 0 0;
+	width: 38px;
+	height: 38px;
+	background: url(../images/iphone-ico2.png) no-repeat;
+}

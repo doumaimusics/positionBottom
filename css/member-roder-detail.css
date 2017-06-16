@@ -1,0 +1,682 @@
+
+/*订单详情*/
+/*提示*/
+
+.emph-wrap {
+	background-color: #fff;
+}
+
+.emph-wrap .emph-tips {
+	height: 30px;
+	background: #fff;
+	line-height: 30px;
+}
+
+.emph-tips b {
+	display: inline-block;
+	margin-right: 10px;
+	width: 11px;
+	height: 15px;
+	background: url(../images/ts-icon.png);
+	vertical-align: middle;
+}
+
+.order-detail .m {
+	margin-bottom: 20px;
+}
+
+/*路径*/
+.breadcrumb {
+	overflow: hidden;
+	height: 38px;
+	vertical-align: baseline;
+	line-height: 38px;
+}
+
+.breadcrumb .en {
+	padding: 0 5px;
+	font-family: 宋体;
+}
+
+.order-detail .mc {
+	border: 1px solid #eee;
+	background: #fff;
+}
+
+.order-detail .order-state.ms{
+	border-top: 3px solid #f60001;
+}
+.order-detail .order-state.ms2 {
+	border-top: 3px solid #67ca2a;
+}
+
+.order-detail .state-cont {
+	position: relative;
+	border: 1px solid #eee;
+	background: #fff;
+}
+
+.order-state .state-lcol {
+	float: left;
+	padding: 20px 0 30px;
+	width: 325px;
+	text-align: center;
+}
+
+.order-state .state-top {
+	margin-bottom: 30px;
+	color: #999;
+}
+
+.order-state .state-txt {
+	font: 700 24px/34px "Microsoft YaHei";
+}
+.order-state .state-txt2 {
+	font: 700 24px/34px "Microsoft YaHei";
+	padding: 50px 0 82px;
+}
+.order-state .state-btns {
+	margin: 20px 0 30px;
+	min-height: 65px;
+}
+
+.order-state .state-btns a {
+	display: block;
+	margin: 10px auto 0;
+}
+
+.order-state .state-btns .btn-1 {
+	padding: 4px 0 5px;
+	width: 98px;
+}
+
+.order-state .btn-1 {
+	display: inline-block;
+	padding: 4px 14px 5px;
+	height: 18px;
+	border: 1px solid #e4393c;
+	border-radius: 2px;
+	background: #fff;
+	color: #e4393c;
+	line-height: 18px;
+}
+
+a.btn-print b {
+	display: inline-block;
+	margin-right: 3px;
+	width: 16px;
+	height: 15px;
+	background: url(../images/print-icon.png) no-repeat;
+	vertical-align: middle;
+}
+
+a.btn-del b {
+	display: inline-block;
+	margin-right: 3px;
+	width: 16px;
+	height: 16px;
+	background: url(../images/cancel-icon.png) no-repeat;
+	vertical-align: middle;
+}
+
+.state-bottom .btn-del {
+	margin-left: 70px;
+}
+
+.order-state .remain-time b {
+	display: inline-block;
+	margin-right: 3px;
+	width: 15px;
+	height: 15px;
+	background: url(../images/date-ico.png) no-repeat;
+	vertical-align: middle;
+}
+
+.order-state .state-rcol {
+	float: left;
+	padding: 20px 0 30px 35px;
+	width: 800px;
+	border-left: 1px solid #f1f1f1;
+}
+
+.order-state .state-rtop {
+	overflow: hidden;
+	height: 50px;
+}
+
+.order-state .process {
+	overflow: hidden;
+	height: 165px;
+}
+
+.order-state .process .steps-line li {
+	position: relative;
+	float: left;
+	margin-right: 65px;
+	width: 71px;
+	text-align: center;
+}
+
+.order-state .process .steps-line li .arrow-r-ico {
+	position: absolute;
+	top: 25px;
+	right: -35px;
+	width: 10px;
+	height: 19px;
+	background: url(../images/process-arrow-r-ico.png);
+}
+
+.order-state .process .steps-line li .ms {
+	margin-top: 5px;
+}
+
+.order-state .process .steps-line li .ms .time {
+	margin-top: 3px;
+	line-height: 14px;
+	color: #ccc;
+}
+
+.order-state .mb {
+	position: absolute;
+	right: 0;
+	bottom: -5px;
+	left: 0;
+	margin: auto;
+	height: 5px;
+	background: url(../images/lc-dian-icon.png) repeat-x;
+}
+
+.order-info-mod .mc {
+	border-top-width: 4px;
+}
+
+.order-info-mod .mc {
+	border-top-width: 4px;
+}
+
+.order-info-mod .order-info .ui-switchable-body {
+	height: 180px;
+}
+
+.order-info-mod .order-info .dl {
+	float: left;
+	margin: 0 0 0 -1px;
+	padding: 20px 20px 0 30px;
+	width: 247px;
+	height: 160px;
+	border-width: 0 0 0 1px;
+	border-right: 1px solid #f1f1f1;
+}
+
+.order-info-mod .order-info .dl:last-child {
+	border-right: 0;
+}
+
+.order-info-mod .order-info .dt {
+	margin-bottom: 5px;
+}
+
+.order-info-mod .order-info .label {
+	float: left;
+	width: 84px;
+}
+
+.order-info-mod .order-info .dt h4 {
+	margin-bottom: 10px;
+	height: 24px;
+	color: #333;
+	font-size: 14px;
+	line-height: 24px;
+}
+
+.order-info-mod .order-info .dd {
+	color: #333;
+	line-height: 20px;
+}
+
+.order-info-mod .order-info .info-rcol {
+	float: left;
+	overflow: hidden;
+	margin-bottom: 5px;
+	width: 158px;
+	max-height: 72px;
+}
+
+.order-info-mod .order-info .item {
+	display: inline-block;
+	display: block;
+	line-height: 18px;
+}
+
+.order-info-mod .order-info .label {
+	float: left;
+	width: 84px;
+	color: #999;
+}
+
+.order-info-mod .root61 .order-info .info-rcol {
+	width: 178px;
+}
+
+/*订单明细*/
+.order-mingx{
+	padding: 20px 20px 20px 30px;
+	background-color: #fff;
+	border-width: 0 0 0 1px;
+}   
+.order-mingx .order-mingx-body .info-line{
+	border-collapse: collapse;
+	margin-top: 15px;
+}
+.order-mingx .order-mingx-body .info-line td{
+	padding: 10px 15px;
+	border: 1px solid #e9e9e9;
+}
+.order-mingx .order-goods h3 {
+	margin-bottom: 8px;
+}
+
+.order-mingx .order-goods .order-orderInfo .infor-table {
+	border-collapse: collapse;
+}
+
+.order-mingx .order-goods .order-orderInfo .infor-table th {
+	padding: 6px 15px;
+	background-color: #ececec;
+	font-weight: normal;
+}
+
+.order-mingx .order-goods .order-orderInfo .infor-table td {
+	padding: 15px 15px;
+	border: 1px solid #daf3ff;
+}
+
+.order-mingx .order-goods .order-orderInfo .infor-table .info-cell .info-detail .pcb-img {
+	margin: 0 12px 0 0;
+	border: 1px solid #eee;
+	; width: 80px;
+	height: 80px;
+}
+
+.order-mingx .order-goods .order-orderInfo .infor-table .info-cell .info-detail dd {
+	margin-bottom: 2px;
+}
+
+.order-mingx .order-goods .order-orderInfo .infor-table .order-orderExt {
+	background-color: #eaf8ff;
+	line-height: 26px;
+}
+
+.order-mingx .order-goods .order-orderInfo .infor-table .order-orderExt .add-note .title {
+	margin-right: 5px;
+}
+
+.order-mingx .order-goods .order-orderInfo .infor-table .order-orderExt .add-note .ms {
+	border: 1px solid #d5d5d5;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+
+.order-mingx .order-goods .order-orderInfo .infor-table .order-orderExt .add-note .text-a {
+	position: relative;
+	float: left;
+	height: 26px;
+}
+
+.order-mingx .order-goods .order-orderInfo .infor-table .order-orderExt .add-note .text-a input {
+	float: left;
+	width: 280px;
+	height: 26px;
+	line-height: 26px;
+	border: 0;
+	outline: none;
+	color: #333;
+	background: url(../images/input-bg.png) top repeat-x #fff;
+	padding: 0 5px;
+	line-height: 3px;
+}
+
+.order-mingx .order-goods .order-orderInfo .infor-table .order-orderExt .courier {
+	margin-left: 100px;
+}
+
+.order-mingx .order-goods .order-orderInfo .infor-table .order-orderExt .price {
+}
+
+.order-mingx .order-goods .order-orderInfo .infor-table .more {
+	border: 1px solid #eee;
+	padding: 5px 8px;
+}
+
+.order-mingx .order-goods .order-orderInfo .infor-table .more:hover {
+	border: 1px solid #ff4400;
+}
+
+/*购物车提交*/
+.order-mingx .order-summary {
+	overflow: hidden;
+	margin-top: 20px;
+}
+
+.order-mingx .order-summary .statistic {
+	width: 280px;
+	padding: 10px 0;
+	margin-right: 20px;
+}
+
+.order-mingx .order-summary .statistic .list {
+	height: 24px;
+	line-height: 24px;
+	overflow: hidden;
+	margin-bottom: 5px;
+	zoom: 1;
+}
+
+.order-mingx .order-summary .statistic .list span {
+	width: 180px;
+	float: left;
+	text-align: right;
+}
+
+.order-mingx .order-summary .statistic .list em {
+	display: inline;
+}
+
+.order-mingx .order-summary .statistic .price {
+	float: left;
+	width: 100px;
+	text-align: right;
+	font-family: verdana;
+}
+
+.logistics-header {
+	height: 92px;
+}
+
+.logistics-header .logo {
+	margin-top: 30px;
+}
+
+.logistics-header .logo a {
+	float: left;
+	width: 271px;
+	height: 49px;
+	background: url(../images/login-logo.png);
+}
+
+.logistics-header .logo .title {
+	display: inline-block;
+	margin: 5px 0 0 15px;
+	font-size: 24px;
+	border-left: 1px solid #ddd;
+	padding-left: 15px;
+}
+
+.logistics-warp {
+	border: 1px solid #aed8ff
+}
+
+.logistics-warp .title {
+	line-height: 36px;
+	padding: 0 18px;
+	background-color: #eaf8ff;
+}
+
+.logistics-warp .logistics-box {
+	padding: 25px 30px;
+}
+
+.logistics-warp .logistics-box .dt {
+	height: 37px;
+	line-height: 37px;
+}
+
+.logistics-warp .logistics-box .dt .car-icon {
+	float: left;
+	width: 37px;
+	height: 26px;
+	margin-right: 8px;
+	background: url(../images/car-icon.png);
+}
+
+.logistics-warp .logistics-box .order-info {
+	background: url(../images/lc-dian-icon.png) repeat-x #f5f5f5;
+	padding: 25px 25px;
+}
+
+.logistics-warp .logistics-box .order-info h4 {
+	margin-bottom: 10px;
+}
+
+.logistics-warp .logistics-box .order-info .list li {
+	margin-bottom: 5px;
+}
+
+.logistics-warp .logistics-box .order-track .track-list {
+    margin: 20px 10px;
+    margin-right: 10px;
+    padding-left: 5px;
+    overflow: hidden;
+    position: relative;
+}
+.order-track .track-list li.first {
+    padding-top: 0;
+}
+.order-track .track-list-date li {
+    line-height: 22px;
+}
+.order-track .track-list li {
+    position: relative;
+    padding: 9px 0 0 15px;
+    line-height: 22px;
+    border-left: 1px solid #d9d9d9;
+    color: #333;
+}
+.order-track .track-list li.first .node-icon {
+    background: url(../images/wl-a-icon.png) center no-repeat #fff;
+    height: 20px;
+    top: 0;
+}
+.order-track .track-list li .node-icon {
+    position: absolute;
+    left: -6px;
+    top: 50%;
+    width: 11px;
+    height: 11px;
+    background: url(../images/wl-b-icon.png) no-repeat;
+}
+.order-track .track-list-date .first .date {
+    border-left-color: #fff;
+}
+.order-track .track-list-date li .date {
+    display: inline-block;
+}
+.order-track .track-list li .date {
+    display: inline-block;
+    width: 100px;
+    color: #333;
+    border-radius: 14px;
+    font-size: 12px;
+    text-align: left;
+}
+.order-track .track-list li .date {
+    display: inline-block;
+    width: 100px;
+    color: #333;
+    border-radius: 14px;
+    font-size: 12px;
+    text-align: left;
+}
+.order-track .track-list-date .afterdate .time, .order-track .track-list-date .first .time {
+    margin-left: 2px;
+}
+.order-track .track-list li .time {
+    width: 50px;
+    margin-right: 20px;
+}
+.order-track .track-list li .time, .order-track .track-list li .txt {
+    position: relative;
+    display: inline-block;
+}
+.order-track .track-list-date li .time {
+    margin-left: 102px;
+    vertical-align: top;
+    font-size: 12px;
+}
+.root61 .order-track .track-list-date li .txt {
+    max-width: 520px;
+}
+.order-track .track-list li .time, .order-track .track-list li .txt {
+    position: relative;
+    display: inline-block;
+}
+.order-track .track-list li .txt {
+    max-width: 505px;
+    vertical-align: top;
+}
+
+/*收银台*/
+.cashiers .cashiers-trad{ overflow: hidden; padding: 20px 0 0px;}
+.cashiers .cashiers-trad .o-left{ float: left; max-width: 600px;}
+.cashiers .cashiers-trad .o-left em{ margin-bottom: 3px;}
+.cashiers .cashiers-trad .o-right {
+    float: right;
+    width: 190px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    overflow: hidden;
+    text-align: right;
+}
+
+.cashiers .payment-box {
+	border: 3px solid #ededed;
+	margin-bottom: 20px;
+}
+
+.cashiers .payment-box .title {
+	position: relative;
+	height: 32px;
+	line-height: 32px;
+	padding: 0 35px;
+	margin-top: 9px;
+	padding-left: 122px;
+}
+
+.cashiers .payment-box .title .cft-dt,.cashiers .payment-box .title .kj-dt{
+	position: absolute;
+	left: -7px;
+	width: 114px;
+	height: 32px;
+	line-height: 32px;
+	text-align: center;
+	color: #fff;
+	background-color: #c71622;
+}
+.cashiers .payment-box .title .kj-dt{
+	background-color: #98add0;
+}
+.cashiers .payment-box .title .cft-dt .icon,.cashiers .payment-box .title .kj-dt .icon{
+	position: absolute; 
+	left: 0; 
+	top: 17px;
+	z-index: 99;
+	width: 4px;
+	height:3px;
+	font-size: 0;
+}
+
+.cashiers .payment-box .list {
+	overflow: hidden;
+	padding: 20px 20px;
+}
+
+.cashiers .payment-box .list li {
+	position: relative;
+	float: left;
+	cursor: pointer;
+	width: 135px;
+	height: 32px;
+	margin: 0 0 12px 15px;
+	border: 2px solid #eaeaea
+}
+
+.cashiers .payment-box .list li:hover {
+	border: 2px solid #f60001;
+	background: url(../images/choose-ico.png) bottom right no-repeat;
+}
+
+.cashiers .payment-box .list li.over {
+	border: 2px solid #f60001;
+	background: url(../images/choose-ico.png) bottom right no-repeat;
+}
+
+.cashiers .payment-box .list li.over:after {
+	content: "";
+	position: absolute;
+	z-index: 99;
+	right: 0;
+	bottom: 0;
+	height: 12px;
+	width: 12px;
+	background: url(../images/choose-ico.png) bottom right no-repeat;
+}
+
+.cashiers .payment-box .quick-pay {
+	overflow: hidden;
+	padding: 20px 20px;
+}
+
+.cashiers .payment-box .quick-pay li {
+	overflow: hidden;
+	border-bottom: 1px solid #ebebeb;
+	padding: 18px 0;
+}
+
+.cashiers .payment-box .quick-pay li .choose {
+	float: left;
+	width: 35px;
+	height: 35px;
+	background: url(../images/cloose-ico.png) center no-repeat;
+	cursor: pointer;
+}
+.cashiers .payment-box .quick-pay li .choose.over{
+	background: url(../images/cloose-hover-ico.png) center no-repeat;
+}
+.cashiers .payment-box .quick-pay li .choose.disable{
+	background: url(../images/cloose-disable-ico.png) center no-repeat;
+	cursor: auto ;
+}
+
+.cashiers .payment-box .quick-pay li .pay-icon {
+	float: left;
+	width: 35px;
+}
+
+.cashiers .payment-box .quick-pay li .dt {
+	float: left;
+	width: 118px;
+	line-height: 35px;
+	font-size: 15px;
+	margin-left: 15px;
+}
+
+.cashiers .payment-box .quick-pay li .dd {
+	line-height: 35px;
+	margin-left: 15px;
+}
+
+.cashiers .payment-box .quick-pay li .dd .ml-10{
+	margin-left: 10px;
+}
+.cashiers .submit-btn{
+	width: 182px;
+	height: 38px;
+	background-color: #00aaee;
+	color: #fff;
+	margin: 0 0 20px 0;
+	border: 0;
+}
+.cashiers .submit-btn:hover{
+	background-color: #019cda;
+}
